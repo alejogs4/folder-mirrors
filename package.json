@@ -1,0 +1,15 @@
+{
+  "name": "modules-sync",
+  "version": "1.0.0",
+  "description": "This tool allows to improve both development experience and confidence in development time, to properly set it up you must create a file named sync-config.js in the project's root where you will point out to the directories you will observe changes and those ones where these changes will be reflected as soon as are made",
+  "main": "modules-sync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "fb-watchman": "^2.0.1"
+  }
+}
